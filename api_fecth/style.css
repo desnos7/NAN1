@@ -2,6 +2,117 @@
     margin: 0;
     padding: 0;
 }
+.body{
+    background-color: rgb(78, 221, 46,0.5);
+    width: 100%;
+    height: 62vh;
+   padding: 10%; 
+    
+} 
+
+.inscription{
+ 
+
+margin-left:25% ;
+padding-left: 60px;
+border: none;
+border-radius: 10px;
+width: 500px;
+height: 550px;
+box-shadow: 2px 5px 5px  gray;
+position: relative;
+background-color: white;
+
+}
+h1{
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+input{
+    padding: 15px;
+    width: 82%;
+    height: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+#spn1{
+    color: red;
+    display: none;
+
+}
+button{
+    position: absolute;
+    bottom: 10px;
+    padding: 15px;
+    width: 80%;
+    right: 55px;
+    border-radius: 8px ;
+    border: 1px solid rgb(78, 221, 46,0.5);
+    color: white;
+    font-size: 25px;
+    background-color: rgb(78, 221, 46,0.5);
+
+}
+button:hover{
+    background-color:white ;
+    color: rgb(78, 221, 46,0.5);
+    transition: 2s;
+}
+/* /connexion */
+.connexion{
+ 
+    /* margin: 5%; */
+    margin-left:25% ;
+    padding-left: 60px;
+    border: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 380px;
+    box-shadow: 2px 2px 2px 2px gray;
+    position: relative;
+    background-color: white;
+    
+    }
+/* index page */
+ nav{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;border-bottom: 1px solid black;
+     padding: 20px;
+     background-color: rgb(29, 54, 121);
+     color: white;
+    
+
+ }
+.nav2{
+     display: flex;
+     flex-direction:row;
+    
+ }
+ .nav{
+     display: flex;
+     flex-direction: row;      
+ }
+ .nav>p{
+    transform: translate(20%);
+    font-size: 27px;
+ }
+ .nav2>p{
+     padding-right: 25px;
+     font-size: 27px;
+    
+ }
+ .fa-solid {
+     color: white;
+     font-size: 30px;
+ }
+
 .contener{
     margin: 100px;
    width:90%;
@@ -17,13 +128,15 @@
     height: 400px;
     overflow: hidden;
     border: 1px solid black;
-    border-radius:15px ;
+    border-radius:8px ;
     position: relative;
    
-    
-
   
 }
+.box>p{
+  color:white
+}
+
 img{
     background-size:cover ;
     object-fit: cover;
@@ -50,7 +163,7 @@ img{
     right: 5px;
     border-radius: 5px;
 }
-p{
+.name{
     background-color: rgb(20, 19, 19);
     padding: 10px;
     color:white; 
@@ -60,4 +173,59 @@ p{
     bottom: 5px;
    left: 80px;
 }
+    /*information page  */
+
+ .information{
+     margin: 230px;
+     display: flex;
+     flex-direction: row;
+     justify-content:space-between ;
+     width: 80%;
+     gap: 2%;
+    }
+ .inform1{
+        width: 60px;
+    }
+  #image{
+      width: 450px;
+      height: 500px;
+  }
+  .inform2{
+    width: 900px;
+    align-items: center;
+    padding: 80px;
     
+  }
+  /* search page */
+  .information{
+    margin: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    width: 80%;
+    gap: 2%;
+   }
+   .inform2{
+    width: 900px;
+    align-items: center;
+    padding: 80px;
+    
+  }
+  .inform1{
+    width: 60px;
+}
+#icon{
+   /* transform:translate(-70%); */
+   transform: translateX(-15%);
+   z-index: 1;
+   color:blue;
+}
+.main{
+    margin: 100px;
+   width:90%;
+   height: 100vh; 
+   display: flex;
+   flex-wrap: wrap;
+    
+   
+}

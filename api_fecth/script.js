@@ -22,8 +22,6 @@ function verifie(){
     }
 }
 
-
-
 function store() {
    
    
